@@ -19,7 +19,7 @@ email: wooandy@mac.com
 description: > # this means to ignore newlines until "baseurl:"
   Roooarrgh ur roo.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wookieweb.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wookieweb.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/andy.jpg
 twitter_username: _wooandy
 instagram_username: _wooandy
