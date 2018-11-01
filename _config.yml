@@ -24,6 +24,7 @@ logo: /assets/andy.jpg
 twitter_username: _wooandy
 instagram_username: _wooandy
 github_username:  wooandy
+rss: rss
 
 # Build settings
 markdown: kramdown
