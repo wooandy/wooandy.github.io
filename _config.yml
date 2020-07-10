@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: WookieWeb
+title: WOOKIEWEBlog
 author: Andy Woo
 email: wooandy@mac.com
 description: > # this means to ignore newlines until "baseurl:"
-  Roooarrgh ur roo. Crazylabel founder. Used to work for the Barbie’s company.  斷捨離 | GTD |  | Retropie
+  Roooarrgh ur roo. Crazylabel founder. Previously 6:700/275 and VR2ZBY. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wookieweb.com" # the base hostname & protocol for your site, e.g. http://example.com
 feed_items: 10
