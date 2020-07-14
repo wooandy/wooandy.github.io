@@ -17,7 +17,7 @@ title: WookieWeb
 author: Andy Woo
 email: wooandy@mac.com
 description: > # this means to ignore newlines until "baseurl:"
- A Hongkonger, Crazylabel founder, Ham radio VR2ZBY and Sysop of 6:700/275. 
+  VR2ZBY, a Hongkonger, Crazylabel founder and Sysop of 6:700/275.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wookieweb.com" # the base hostname & protocol for your site, e.g. http://example.com
 feed_items: 10
