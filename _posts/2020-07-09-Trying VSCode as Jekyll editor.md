@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trying VSCode as Jekyll editor
+title: Trying BBEdit as Jekyll editor
 date: 2020-07-09 23:45
 category: 
 author: Andy
@@ -8,4 +8,4 @@ tags: []
 summary: 
 ---
 
-Feeling evil to install VSCode on my Mac 😎
+Feeling great to install BBEdit on my Mac 😎
