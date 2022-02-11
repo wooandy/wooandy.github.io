@@ -22,4 +22,4 @@ I love my Beats Pill+, I don’t use it very often but it comes in handy when I 
 | Connection | Bluetooth | WiFi |
 
 
-![Beats Pill+](http://s3.us-east-1.amazonaws.com/wookieweblog-files/beatspillplus.jpeg)
+![Beats Pill+](https://wookieweblog-files.s3.amazonaws.com/beatspillplus.jpeg)
