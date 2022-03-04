@@ -1,14 +1,35 @@
 ---
 layout: post
-title: Learning Applescript
-date: 2022-3-8 15:43:44
+title: Learning Applescript - Automating my "Post to Jekyll" Workflow
+date: 2022-3-4 18:00:01
 category: personal
 tags: 
 ---
 
-Applescript version of my **Post to Jekyll** workflow.
+Below is a Applescript to automate my **Post to Jekyll** workflow in BBEdit. This is essentially a combination of 2 separate scripts - Insert Front Matter and Rename Active Document[^1].
 
-```
+Firstly, it asks for the Post title.
+![Post Title Dialog](https://s3.amazonaws.com//wookieweblog-files/post-title-dialog.jpg)
+
+And then, the script will automagically insert the Front Matter to the beginning of the document. This is the main reason why I created this script.
+![Added Front Matter](https://s3.amazonaws.com//wookieweblog-files/added-front-matter.jpg)
+
+And finally it will use the post title as the document name, or you can change it, if you want to. 
+![Rename active document](https://s3.amazonaws.com//wookieweblog-files/rename-active-document-dialog.jpg)
+
+
+## How does the script work
+* When the script runs, the explicit [**run handler**](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/conceptual/ASLR_about_handlers.html#//apple_ref/doc/uid/TP40000983-CH206-SW15) will be executed first, display a dialog asking the user to input the Post title.
+* **getTimeInHoursAndMinutes()** to get today's date and time as a string from ([current date](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/reference/ASLR_cmds.html#//apple_ref/doc/uid/TP40000983-CH216-SW39))
+* Assemble the Front Matter block with the entered Post title and current date and time.
+* **findAndReplaceInText()** to replace space " " with dash "-" in the Post title. We don't want space in our document's name.
+* Rename the document to date+post-title.      
+
+
+<br>
+
+##### Complete Applescript listing, you can download (File: [Insert Front Matter and Rename Document.scpt](https://gist.github.com/wooandy/b62599d01919b53112eb373ee40b898e)) from my Github
+```applescript
 on getTimeInHoursAndMinutes()
 	
 	-- Get the "hour"
@@ -60,7 +81,6 @@ on run
 		set {year:y, month:m, day:d, time:t} to (current date)
 		set timeString to my getTimeInHoursAndMinutes()
 		set dateString to "date: " & y & "-" & (m as number) & "-" & d & " " & timeString
-		-- set dateString to "date: " & (current date)
 		set categoryString to "category: personal"
 		set tagString to "tags: "
 		
@@ -101,3 +121,5 @@ on run
 	
 end run
 ```
+
+[^1]: [Rename Active Document](https://daringfireball.net/2004/10/rename_active_document) Applescript is directly adopted from [Daring Fireball](https://daringfireball.net/).
