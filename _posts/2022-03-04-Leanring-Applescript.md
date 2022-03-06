@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning Applescript - Automating my "Post to Jekyll" Workflow
-date: 2022-3-4 18:00:01
+date: 2022-03-04 18:00:01
 category: personal
 tags: 
 ---
