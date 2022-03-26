@@ -14,6 +14,4 @@ Am I the only one to bet that the new HomePod would merge with Apple TV
 a HomePod with battery power was cancelled because the new HomePod would
 have a cable out and connect to your TV?
 
-![The future hits
-home.](https://s3.amazonaws.com/wookieweblog-files/Apple-homepage-
-TVandHome.jpg)
+![The future hits home.](/assets/Apple-homepage-TVandHome.jpg)

@@ -9,13 +9,13 @@ tags:
 Below is a Applescript to automate my **Post to Jekyll** workflow in BBEdit. This is essentially a combination of 2 separate scripts - Insert Front Matter and Rename Active Document[^1].
 
 Firstly, it asks for the Post title.
-![Post Title Dialog](https://s3.amazonaws.com//wookieweblog-files/post-title-dialog.jpg)
+![Post Title Dialog](/assets/post-title-dialog.jpg)
 
 And then, the script will automagically insert the Front Matter to the beginning of the document. This is the main reason why I created this script.
-![Added Front Matter](https://s3.amazonaws.com//wookieweblog-files/added-front-matter.jpg)
+![Added Front Matter](/assets/added-front-matter.jpg)
 
 And finally it will use the post title as the document name, or you can change it, if you want to. 
-![Rename active document](https://s3.amazonaws.com//wookieweblog-files/rename-active-document-dialog.jpg)
+![Rename active document](/assets/rename-active-document-dialog.jpg)
 
 
 ## How does the script work

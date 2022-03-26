@@ -6,5 +6,5 @@ category: personal
 tags: 
 ---
 
-![VSCode remote development with Raspberry Pi 4](https://s3.amazonaws.com//wookieweblog-files/piday.JPG)
+![VSCode remote development with Raspberry Pi 4](/assets/piday.JPG)
 VSCode remote development with Raspberry Pi 4
