@@ -18,7 +18,8 @@ permalink: /about/
 			"ham radio",
 			"raspberry pi",
 			"arduino",
-			"python"
+			"python",
+			"japanese"
 		],
 		"past": {
 			"fidonet": "6:700/275",
