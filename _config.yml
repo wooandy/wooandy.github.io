@@ -24,11 +24,12 @@ feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 logo: /assets/andy.jpg
-twitter_username: _wooandy
+twitter_username: @_wooandy
 instagram_username: _wooandy
 github_username:  wooandy
 rss: rss
 timezone: Asia/Hong_Kong
+google_analytics: UA-128483821-1
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
