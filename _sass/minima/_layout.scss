@@ -15,7 +15,7 @@
   font-weight: 300;
   line-height: $base-line-height;
   letter-spacing: -1px;
-  margin-bottom: 0;
+  margin-bottom: -10;
   float: left;
 
   @include media-query($on-palm) {
@@ -26,6 +26,21 @@
   &:visited {
     color: $grey-color-dark;
   }
+}
+
+
+.title-block {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.title-block img {
+	float: left;
+	padding-right: 5px;
+}
+
+.clear {
+	clear: both;
 }
 
 .site-nav {
