@@ -53,3 +53,5 @@ permalink: /:year/:month/:day/:title:output_ext
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
