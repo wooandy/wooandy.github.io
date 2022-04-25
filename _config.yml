@@ -23,7 +23,7 @@ url: "https://wookieweb.com" # the base hostname & protocol for your site, e.g. 
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
-logo: /assets/andy.jpg
+logo: /assets/wookie.png
 twitter_username: _wooandy
 instagram_username: _wooandy
 github_username:  wooandy
