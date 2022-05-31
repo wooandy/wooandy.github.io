@@ -13,5 +13,5 @@ It is the [30th anniversary](https://arstechnica.com/gadgets/2022/05/remembering
 30 years later, my OMP has since been long dead. But with the magic of [emulators](https://github.com/pguyot/Einstein), I can experience the beauty of NewtonOS and I'm learning NewtonScript [development](http://messagepad.org/Newton_Script_NTK.html) and developing an App from the book.
 
 ![Programming for the Newton](/assets/ProgrammingForTheNewton.JPG)
-![NewtonOS](/assets/NewtonOS.JPG)
-![NTK](/assets/NTK.JPG)
+![NewtonOS](/assets/NewtonOS.jpg)
+![NTK](/assets/NTK.jpg)
