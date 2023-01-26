@@ -24,8 +24,9 @@ feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
 logo: /assets/wookie.png
-twitter_username: _wooandy
-instagram_username: _wooandy
+mastodon:
+- username: wookie
+  instance: mastodon.hk
 github_username:  wooandy
 flickr_username: wooandy
 rss: rss
