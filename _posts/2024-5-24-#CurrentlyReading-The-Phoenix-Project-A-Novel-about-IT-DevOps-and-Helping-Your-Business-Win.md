@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#CurrentlyReading - The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win"
-date: 2023-2-12
+date: 2024-5-24
 category: personal
 tags: 
 ---
