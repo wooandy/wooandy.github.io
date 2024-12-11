@@ -33,7 +33,7 @@ rss: rss
 timezone: Asia/Hong_Kong
 google_analytics: UA-128483821-1
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Build settings
 markdown: kramdown
